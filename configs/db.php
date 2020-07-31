@@ -1,13 +1,14 @@
 <?php
 $db['master'] = array(
     'type'       => SPF\Database::TYPE_MYSQLi,
-    'host'       => "127.0.0.1",
+    'host'       => "120.24.24.191",
     'port'       => 3306,
     'dbms'       => 'mysql',
-    'engine'     => 'MyISAM',
+    'type'       => 'mysql',
+    'engine'     => 'InnoDB',
     'user'       => "root",
     'password'     => "root",
-    'database'       => "webim",
+    'database'       => "test",
     'charset'    => "utf8",
     'setname'    => true,
     'persistent' => false, //MySQL长连接

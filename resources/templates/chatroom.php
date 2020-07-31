@@ -9,10 +9,10 @@
 <script src="/static/js/console.js"></script>
 <script src="/static/js/comet.js" charset="utf-8"></script>
 <script src="/static/js/chat.js" charset="utf-8"></script>
-<script type="text/javascript" src="http://www.swoole.com/static/js/facebox.js"></script>
+<script type="text/javascript" src="http://120.24.24.191/static/js/facebox.js"></script>
 <script type="text/javascript">
-    $.facebox.settings.closeImage = 'http://www.swoole.com/static//images/closelabel.png';
-    $.facebox.settings.loadingImage = 'http://www.swoole.com/static/images/loading.gif';
+    $.facebox.settings.closeImage = 'http://120.24.24.191/static//images/closelabel.png';
+    $.facebox.settings.loadingImage = 'http://120.24.24.191/static/images/loading.gif';
     $(document).ready(function($){
         $('a[rel=facebox]').facebox();
     });
@@ -23,7 +23,7 @@
     var user = <?=json_encode($user)?>;
     var debug = <?=$debug?>;
 </script>
-<link type="text/css" rel="stylesheet" href="http://www.swoole.com/static/css/facebox.css" />
+<link type="text/css" rel="stylesheet" href="http://120.24.24.191/static/css/facebox.css" />
 
 <script type="text/javascript">
 $().ready(function(){

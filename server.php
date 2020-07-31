@@ -17,7 +17,6 @@ $app->loader->addNameSpace('WebIM', __DIR__.'/src/');
 $app->config->setPath(__DIR__.'/configs');
 
 SPF\App::$enableCoroutine = true;
-
 $server = new WebIM\Server($app->config['webim']);
 $server->run();
 

@@ -23,7 +23,7 @@ class Pool
             $object = $this->create();
             if ($object == false)
             {
-                throw new RuntimeException("failed to connect mysql server.");
+                throw new RuntimeException("failed to connect {$this->config['type']} server.");
             }
             else
             {
